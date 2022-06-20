@@ -7,8 +7,8 @@ import android.view.View;
 import android.widget.ImageView;
 
 public class Pilih extends AppCompatActivity {
-    ImageView imgV_luffy, imgV_naruto, imgV_boruto, imgV_tanjiro, imgV_saitama,
-            imgV_marin, imgV_asuna, imgV_raphtalia, imgV_anya, imgV_nezuko;
+    ImageView imgV_luffy, imgV_naruto, imgV_saitama,
+            imgV_marin, imgV_asuna, imgV_anya, imgV_nezuko;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

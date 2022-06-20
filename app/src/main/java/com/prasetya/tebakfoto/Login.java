@@ -27,7 +27,8 @@ public class Login extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 if (lg_Usename.getText().toString().equalsIgnoreCase(username)&&lg_Pass.getText().toString().equalsIgnoreCase(pass)){
-                    startActivity(new Intent(Login.this, Tebak.class));
+                    Intent intent = new Intent(Login.this, Pilih.class);
+                    startActivity(intent);
                 }else {
                     Toast.makeText(Login.this,"Username/Password Salah!",Toast.LENGTH_SHORT).show();
                 }
@@ -35,6 +36,11 @@ public class Login extends AppCompatActivity {
 
         });
 
+
+    }
+    public void log(View view) {
+        Intent intent = new Intent(Login.this, Pilih.class);
+        startActivity(intent);
 
     }
 
