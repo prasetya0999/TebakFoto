@@ -82,12 +82,12 @@
         android:layout_marginEnd="63dp"
         android:textStyle="bold"
         android:text="Sudah punya akun?"
-        app:layout_constraintEnd_toStartOf="@+id/tx_regist"
+        app:layout_constraintEnd_toStartOf="@+id/tx_toLog"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/rg_pass" />
 
     <TextView
-        android:id="@+id/tx_regist"
+        android:id="@+id/tx_toLog"
         android:layout_width="0dp"
         android:layout_height="23dp"
         android:layout_marginTop="59dp"
@@ -95,7 +95,7 @@
         android:layout_marginBottom="70dp"
         android:minHeight="48dp"
         android:onClick="Tolog"
-        android:text="Login"
+        android:text="Login Here"
         android:textColor="@color/purple_700"
         android:textStyle="bold"
         app:layout_constraintBottom_toTopOf="@+id/rg_btnReg"

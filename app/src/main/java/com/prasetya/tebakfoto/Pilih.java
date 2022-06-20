@@ -36,22 +36,6 @@ public class Pilih extends AppCompatActivity {
                 startActivity(b);
             }
         });
-        imgV_boruto.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Intent c = new Intent(Pilih.this, Tebak.class);
-                c.putExtra("nama_icon","boruto");
-                startActivity(c);
-            }
-        });
-        imgV_tanjiro.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Intent d = new Intent(Pilih.this, Tebak.class);
-                d.putExtra("nama_icon","tanjiro");
-                startActivity(d);
-            }
-        });
         imgV_saitama.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -74,14 +58,6 @@ public class Pilih extends AppCompatActivity {
                 Intent g = new Intent(Pilih.this, Tebak.class);
                 g.putExtra("nama_icon","asuna");
                 startActivity(g);
-            }
-        });
-        imgV_raphtalia.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Intent h = new Intent(Pilih.this, Tebak.class);
-                h.putExtra("nama_icon","raphtalia");
-                startActivity(h);
             }
         });
         imgV_anya.setOnClickListener(new View.OnClickListener() {

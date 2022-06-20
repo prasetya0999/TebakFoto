@@ -1,0 +1,69 @@
+{
+  "project_info": {
+    "project_number": "1018810723137",
+    "firebase_url": "https://tebakfoto-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "tebakfoto",
+    "storage_bucket": "tebakfoto.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1018810723137:android:d3c01bc852a734eef28fc0",
+        "android_client_info": {
+          "package_name": "com.prasetya.tebakfoto"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1018810723137-0tfu5krgko6trj07rdcoipn7ffhce7so.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCIxRLzG9Hiibb2d6Yp2hC_JlLRVEsvaxM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1018810723137-0tfu5krgko6trj07rdcoipn7ffhce7so.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1018810723137:android:905bdf80aaf25a3df28fc0",
+        "android_client_info": {
+          "package_name": "com.prasetya.tebakfoto"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1018810723137-0tfu5krgko6trj07rdcoipn7ffhce7so.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCIxRLzG9Hiibb2d6Yp2hC_JlLRVEsvaxM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1018810723137-0tfu5krgko6trj07rdcoipn7ffhce7so.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

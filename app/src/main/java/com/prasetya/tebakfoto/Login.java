@@ -9,6 +9,8 @@ import android.widget.EditText;
 import android.widget.Toast;
 
 public class Login extends AppCompatActivity {
+    EditText lg_Usename, lg_Pass;
+    Button lg_log;
     String username = "agung";
     String pass = "agung1";
 
@@ -17,20 +19,23 @@ public class Login extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_login);
 
-        EditText lg_Usename = findViewById(R.id.lg_Usename);
-        EditText lg_Pass = findViewById(R.id.lg_Pass);
-        Button log = findViewById(R.id.lg_btnLog);
+        lg_Usename = findViewById(R.id.lg_Usename);
+        lg_Pass = findViewById(R.id.lg_Pass);
+        lg_log = findViewById(R.id.lg_btnLog);
 
-        log.setOnClickListener(new View.OnClickListener() {
+        lg_log.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 if (lg_Usename.getText().toString().equalsIgnoreCase(username)&&lg_Pass.getText().toString().equalsIgnoreCase(pass)){
-                    startActivity(new Intent(Login.this, Pilih.class));
+                    startActivity(new Intent(Login.this, Tebak.class));
                 }else {
                     Toast.makeText(Login.this,"Username/Password Salah!",Toast.LENGTH_SHORT).show();
                 }
             }
+
         });
 
+
     }
+
 }
