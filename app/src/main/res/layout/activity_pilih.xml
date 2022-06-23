@@ -28,7 +28,7 @@
                 android:layout_weight="1"
                 android:background="@drawable/numbg"
                 android:padding="10dp"
-                android:src="@drawable/tu" />
+                android:src="@drawable/a" />
 
             <ImageView
                 android:id="@+id/imageView_naruto"
@@ -38,7 +38,33 @@
                 android:layout_weight="1"
                 android:background="@drawable/numbg"
                 android:padding="10dp"
-                android:src="@drawable/wa" />
+                android:src="@drawable/f" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/imageView_boruto"
+                android:layout_width="match_parent"
+                android:layout_height="110dp"
+                android:layout_margin="12dp"
+                android:layout_weight="1"
+                android:background="@drawable/numbg"
+                android:padding="10dp"
+                android:src="@drawable/b" />
+
+            <ImageView
+                android:id="@+id/imageView_tanjiro"
+                android:layout_width="match_parent"
+                android:layout_height="110dp"
+                android:layout_margin="12dp"
+                android:layout_weight="1"
+                android:background="@drawable/numbg"
+                android:padding="10dp"
+                android:src="@drawable/g" />
         </LinearLayout>
 
         <LinearLayout
@@ -54,7 +80,7 @@
                 android:layout_weight="1"
                 android:background="@drawable/numbg"
                 android:padding="10dp"
-                android:src="@drawable/ga" />
+                android:src="@drawable/c" />
 
             <ImageView
                 android:id="@+id/imageView_marin"
@@ -64,7 +90,7 @@
                 android:layout_weight="1"
                 android:background="@drawable/numbg"
                 android:padding="10dp"
-                android:src="@drawable/pat" />
+                android:src="@drawable/h" />
         </LinearLayout>
 
         <LinearLayout
@@ -80,7 +106,33 @@
                 android:layout_weight="1"
                 android:background="@drawable/numbg"
                 android:padding="10dp"
-                android:src="@drawable/ma" />
+                android:src="@drawable/d" />
+
+            <ImageView
+                android:id="@+id/imageView_raphtalia"
+                android:layout_width="match_parent"
+                android:layout_height="110dp"
+                android:layout_margin="12dp"
+                android:layout_weight="1"
+                android:background="@drawable/numbg"
+                android:padding="10dp"
+                android:src="@drawable/i" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/imageView_anya"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_margin="12dp"
+                android:layout_weight="1"
+                android:background="@drawable/numbg"
+                android:padding="10dp"
+                android:src="@drawable/e" />
 
             <ImageView
                 android:id="@+id/imageView_nezuko"
@@ -90,7 +142,7 @@
                 android:layout_weight="1"
                 android:background="@drawable/numbg"
                 android:padding="10dp"
-                android:src="@drawable/nam" />
+                android:src="@drawable/j" />
         </LinearLayout>
     </LinearLayout>
 

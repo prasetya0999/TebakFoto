@@ -5,15 +5,15 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:background="@drawable/bg"
     android:gravity="center"
-    tools:context=".Login">
+    android:background="@drawable/bg"
+    tools:context=".Register">
 
     <TextView
         android:id="@+id/textView3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Silahkan Login"
+        android:text="Register in Here"
         android:textColor="@android:color/black"
         android:textSize="34sp"
         android:textStyle="bold"
@@ -25,11 +25,27 @@
         app:layout_constraintVertical_bias="0.26999998" />
 
     <EditText
-        android:id="@+id/lg_Usename"
+        android:id="@+id/rg_Name"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginStart="20dp"
-        android:layout_marginBottom="16dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginEnd="20dp"
+        android:background="@drawable/input_bg"
+        android:hint="Your Name"
+        android:inputType="textPersonName"
+        android:textColorHint="@color/white"
+        android:textStyle="bold"
+        android:maxLines="1"
+        android:paddingStart="20dp"
+        android:paddingEnd="0dp"/>
+
+    <EditText
+        android:id="@+id/rg_Usename"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginBottom="10dp"
         android:layout_marginEnd="20dp"
         android:background="@drawable/input_bg"
         android:hint="Username"
@@ -41,7 +57,23 @@
         android:paddingEnd="0dp"/>
 
     <EditText
-        android:id="@+id/lg_Pass"
+        android:id="@+id/rg_Email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginEnd="20dp"
+        android:background="@drawable/input_bg"
+        android:hint="Email"
+        android:inputType="textEmailAddress"
+        android:textColorHint="@color/white"
+        android:textStyle="bold"
+        android:maxLines="1"
+        android:paddingStart="20dp"
+        android:paddingEnd="0dp"/>
+
+    <EditText
+        android:id="@+id/rg_Pass"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginStart="20dp"
@@ -52,15 +84,33 @@
         android:textColorHint="@color/white"
         android:textStyle="bold"
         android:maxLines="1"
+        android:layout_marginBottom="10dp"
         android:paddingStart="20dp"
         android:paddingEnd="0dp"/>
+
+    <EditText
+        android:id="@+id/rg_ConPass"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:background="@drawable/input_bg"
+        android:hint="Same Password"
+        android:inputType="textPassword"
+        android:textColorHint="@color/white"
+        android:textStyle="bold"
+        android:maxLines="1"
+        android:paddingStart="20dp"
+        android:paddingEnd="0dp"/>
+
+
     <androidx.appcompat.widget.AppCompatButton
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginStart="20dp"
-        android:id="@+id/lg_btnLog"
+        android:id="@+id/rg_btnReg"
         android:layout_marginEnd="20dp"
-        android:text="Login"
+        android:text="Register"
         android:background="@drawable/btn_bg"
         android:layout_marginTop="40dp"/>
 
@@ -78,10 +128,12 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="5dp"
-            android:text="Register Now"
+            android:text="Login Here"
             android:textStyle="bold"
-            android:id="@+id/btnToReg"
+            android:id="@+id/btnToLog"
             android:textColor="@color/purple_700"/>
     </LinearLayout>
+
+
 
 </LinearLayout>

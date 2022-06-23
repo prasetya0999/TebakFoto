@@ -3,15 +3,22 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/KULIAH/SMT4/app/src/main/res/drawable-v24/detail_bg.xml" value="0.1" />
+        <entry key="..\:/KULIAH/SMT4/app/src/main/res/drawable-v24/tv_bg.xml" value="0.1" />
         <entry key="..\:/KULIAH/SMT4/app/src/main/res/drawable/btn_bg.xml" value="0.2075" />
         <entry key="..\:/KULIAH/SMT4/app/src/main/res/drawable/input_bg.xml" value="0.2075" />
         <entry key="..\:/KULIAH/SMT4/app/src/main/res/drawable/numbg.xml" value="0.2075" />
-        <entry key="..\:/KULIAH/SMT4/app/src/main/res/layout/activity_login.xml" value="0.2" />
+        <entry key="..\:/KULIAH/SMT4/app/src/main/res/layout/activity_login.xml" value="0.1" />
         <entry key="..\:/KULIAH/SMT4/app/src/main/res/layout/activity_main.xml" value="0.1859375" />
         <entry key="..\:/KULIAH/SMT4/app/src/main/res/layout/activity_pilih.xml" value="0.1" />
-        <entry key="..\:/KULIAH/SMT4/app/src/main/res/layout/activity_regist.xml" value="0.2" />
+        <entry key="..\:/KULIAH/SMT4/app/src/main/res/layout/activity_profile.xml" value="0.1" />
+        <entry key="..\:/KULIAH/SMT4/app/src/main/res/layout/activity_regist.xml" value="0.33" />
+        <entry key="..\:/KULIAH/SMT4/app/src/main/res/layout/activity_register.xml" value="0.1308876811594203" />
         <entry key="..\:/KULIAH/SMT4/app/src/main/res/layout/activity_setting.xml" value="0.2" />
         <entry key="..\:/KULIAH/SMT4/app/src/main/res/layout/activity_tebak.xml" value="0.2" />
+        <entry key="..\:/KULIAH/SMT4/app/src/main/res/layout/activity_user_detail.xml" value="0.1" />
+        <entry key="..\:/KULIAH/SMT4/app/src/main/res/layout/item_user.xml" value="0.1" />
+        <entry key="..\:/KULIAH/SMT4/app/src/main/res/menu/menu.xml" value="0.1" />
       </map>
     </option>
   </component>
