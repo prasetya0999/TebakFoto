@@ -27,7 +27,7 @@ public class RcConFig {
     class UserItemView extends RecyclerView.ViewHolder{
         private TextView mNama;
         private TextView mEmail;
-        //    private TextView mPass;
+        private TextView mPass;
 
         private String key;
 
@@ -36,6 +36,7 @@ public class RcConFig {
 
             mNama = (TextView) itemView.findViewById(R.id.tv_nama);
             mEmail = (TextView) itemView.findViewById(R.id.tv_Email);
+            mPass = (TextView) itemView.findViewById(R.id.tv_Pass);
 
             itemView.setOnClickListener(new View.OnClickListener() {
                 @Override
@@ -44,16 +45,17 @@ public class RcConFig {
                     intent.putExtra("username", key);
                     intent.putExtra("name",mNama.getText().toString());
                     intent.putExtra("email",mEmail.getText().toString());
+                    intent.putExtra("password",mPass.getText().toString());
 
                     mContext.startActivity(intent);
                 }
             });
-            //          mPass = (TextView) itemView.findViewById(R.id.tv_Pass);
+//                     mPass = (TextView) itemView.findViewById(R.id.tv_Pass);
         }
         public void bind(@NonNull User user, String key){
             mNama.setText(user.getName());
             mEmail.setText(user.getEmail());
-//            mPass.setText(user.getPassword());
+            mPass.setText(user.getPassword());
             this.key=key;
         }
     }

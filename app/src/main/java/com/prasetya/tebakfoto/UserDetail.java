@@ -15,6 +15,7 @@ public class UserDetail extends AppCompatActivity {
 
     private EditText medtNama;
     private EditText medtEmail;
+    private EditText medtPassw;
 
     private Button mDeleteBtn;
     private Button mUpdateBtn;
@@ -23,6 +24,7 @@ public class UserDetail extends AppCompatActivity {
     private String key;
     private String nama;
     private String email;
+    private String passw;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -32,11 +34,14 @@ public class UserDetail extends AppCompatActivity {
         key = getIntent().getStringExtra("username");
         nama = getIntent().getStringExtra("name");
         email = getIntent().getStringExtra("email");
+        passw = getIntent().getStringExtra("password");
 
         medtNama = (EditText) findViewById(R.id.edt_Nama);
         medtNama.setText(nama);
         medtEmail = (EditText) findViewById(R.id.edt_Email);
         medtEmail.setText(email);
+        medtPassw = (EditText) findViewById(R.id.edt_Passw);
+        medtPassw.setText(passw);
 
         mDeleteBtn = (Button)findViewById(R.id.btn_delete);
         mUpdateBtn = (Button)findViewById(R.id.btn_update);
@@ -48,6 +53,8 @@ public class UserDetail extends AppCompatActivity {
                 User user = new User();
                 user.setName(medtNama.getText().toString());
                 user.setEmail(medtEmail.getText().toString());
+                user.setPassword(medtPassw.getText().toString());
+
 
                 new FbaseHelper().updateUser(key, user, new FbaseHelper.DataStatus() {
                     @Override
